@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1003
+
+This plugin allow you to search the current search pattern in all the buffers currently opened into VIM.
+
+Just do a search in whatsoever way into the current buffer and then run :SIB to process the same search in all the other open buffers.
+
+Use the quickfix commands (:cn, :cp, ...) to navigate through the patterns found, :cclose to close the found's list, that's all.
+
+Do ':help quickfix.txt' for more details.
+
